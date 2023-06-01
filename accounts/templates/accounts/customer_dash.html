@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static '/css/dashboard.css' %}" media="screen">
+{% endblock head %}
+
+{% block content %}
+{% include 'nav.html' %}
+<body class="u-body u-xl-mode" data-lang="en">
+<section class="u-align-center u-clearfix u-palette-5-dark-3 u-section-1" id="carousel_fbc3">
+  <img class="u-expanded-width u-image u-image-1" src="{% static '/images/68ffbf9004b0dff17057449e960409afc44ef44803fa99f71b311f9269dd2880499e70636d866db4101b2603a3bd543eeef2dfac433aa7a9ac309f_1280.jpg' %}" data-image-width="1280" data-image-height="799">
+  <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
+    <div class="u-gutter-0 u-layout">
+      <div class="u-layout-col">
+        <div class="u-size-60">
+          <div class="u-layout-row">
+            <div class="u-align-center u-container-style u-gradient u-layout-cell u-size-20 u-layout-cell-1">
+              <div class="u-container-layout u-container-layout-1"><span class="u-file-icon u-icon u-icon-rounded u-palette-4-light-3 u-radius-50 u-icon-1"><img src="{% static '/images/833643.png' %}" alt=""></span>
+                <h4 class="u-text u-text-1">Pending Orders</h4>
+                <p class="u-text u-text-2">View Pending Orders</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-gradient u-layout-cell u-radius-18 u-size-20 u-layout-cell-2">
+              <div class="u-container-layout u-container-layout-2"><span class="u-file-icon u-icon u-icon-2"><img src="{% static '/images/10692129.png' %}" alt=""></span>
+                <h4 class="u-text u-text-3">Approved Orders</h4>
+                <p class="u-text u-text-4">View Approved Orders</p>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-gradient u-layout-cell u-size-20 u-layout-cell-3">
+              <div class="u-container-layout u-container-layout-3"><span class="u-file-icon u-icon u-icon-rounded u-palette-2-light-3 u-radius-50 u-icon-3"><img src="{% static '/images/9196708.png' %}" alt=""></span>
+                <h4 class="u-text u-text-5">Issued Orders</h4>
+                <p class="u-text u-text-6">View Issued Orders</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="u-align-center u-clearfix u-grey-80 u-section-2" id="sec-fa56" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+  <div class="u-clearfix u-sheet u-sheet-1">
+    <h4 class="u-text u-text-1">Pending Orders</h4>
+    <h4 class="u-text u-text-2">Approved Orders</h4>
+    <div class="u-container-style u-group u-palette-1-base u-group-1">
+      <div class="u-container-layout u-container-layout-1"></div>
+    </div>
+    <div class="u-container-style u-group u-palette-1-base u-group-2">
+      <div class="u-container-layout u-container-layout-2"></div>
+    </div>
+    <h4 class="u-text u-text-3">Issued Orders</h4>
+    <h4 class="u-text u-text-4">Cancelled Orders</h4>
+    <div class="u-container-style u-group u-palette-1-base u-group-3">
+      <div class="u-container-layout u-container-layout-3"></div>
+    </div>
+    <div class="u-container-style u-group u-palette-1-base u-group-4">
+      <div class="u-container-layout u-container-layout-4"></div>
+    </div>
+  </div>
+</section>
+<section class="u-clearfix u-section-3" id="carousel_e52f">
+  <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+    <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+      <div class="u-layout">
+        <div class="u-layout-row">
+          <div class="u-align-left u-container-style u-layout-cell u-size-30 u-white u-layout-cell-1">
+            <div class="u-container-layout u-container-layout-1">
+              <h2 class="u-align-left u-custom-font u-font-montserrat u-text u-text-1"> Get in Touch</h2>
+              <div class="u-align-left u-form u-form-1">
+                <form action="https://forms.nicepagesrv.com/v2/form/process" class="u-clearfix u-form-spacing-28 u-form-vertical u-inner-form" style="padding: 0px;" source="email" name="form">
+                  <div class="u-form-group u-form-name u-label-top">
+                    <label for="name-5a14" class="u-label" wfd-invisible="true">Name</label>
+                    <input type="text" placeholder="Enter your Name" id="name-5a14" name="name" class="u-border-none u-grey-5 u-input u-input-rectangle u-radius-7 u-input-1" required="">
+                  </div>
+                  <div class="u-form-email u-form-group u-label-top">
+                    <label for="email-5a14" class="u-label" wfd-invisible="true">Email</label>
+                    <input type="email" placeholder="Enter a valid email address" id="email-5a14" name="email" class="u-border-none u-grey-5 u-input u-input-rectangle u-radius-7 u-input-2" required="">
+                  </div>
+                  <div class="u-align-right u-form-group u-form-submit u-label-top">
+                    <a href="#" class="u-active-black u-border-none u-btn u-btn-round u-btn-submit u-button-style u-hover-black u-palette-3-base u-radius-7 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-1">Submit</a>
+                    <input type="submit" value="submit" class="u-form-control-hidden" wfd-invisible="true">
+                  </div>
+                  <div class="u-form-send-message u-form-send-success" wfd-invisible="true"> Thank you! Your message has been sent. </div>
+                  <div class="u-form-send-error u-form-send-message" wfd-invisible="true"> Unable to send your message. Please fix errors then try again. </div>
+                  <input type="hidden" value="" name="recaptchaResponse" wfd-invisible="true">
+                  <input type="hidden" name="formServices" value="3b4d8f2bf8b216d63877e003663fdc4b">
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+            <div class="u-container-layout u-container-layout-2">
+              <img class="u-image u-image-round u-radius-17 u-image-1" src="{% static '/images/c07d5dca36d60344ad93bb78d20dcfba6ce9fd2aa7bad52fd2ea6cd4a28500544b081e6871c4603c58c16b826e564e5b89527fdb4d500308eda6d3_1280.jpg' %}" data-image-width="1280" data-image-height="853">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-b094"><div class="u-clearfix u-sheet u-sheet-1">
+    <p class="u-small-text u-text u-text-variant u-text-1">You can think Steel, now you have a Partner.&nbsp;<br>@2023
+    </p>
+  </div></footer>
+
+</body>
+{% endblock content %}
